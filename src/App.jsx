@@ -13,8 +13,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<MainContent />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/Midjounery-gallary/" element={<MainContent />} />
+        <Route path="/Midjounery-gallary/About" element={<About />} />
+        <Route  path='*' element={<NotFound />}/>
       </Routes>
       <Footer />
 
