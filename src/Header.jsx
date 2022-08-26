@@ -10,7 +10,7 @@ const header = () => {
             <a className="mx-2" href="./About">About</a>
         </div>
     </nav>
-  </header>
+    </header>
   )
 }
 
